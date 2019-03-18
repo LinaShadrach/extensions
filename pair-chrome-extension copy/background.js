@@ -1,6 +1,6 @@
 var startNotifications = function() {
   var now = new Date();
-  var notificationInterval = setInterval(createNotification, 21000);
+  var notificationInterval = setInterval(createNotification, 1000);
   var classTime = (now.getHours() >= 8 && now.getHours() <= 16 && now.getDay() !== 0 && now.getDay() !== 5 && now.getDay() !== 6);
   if(!classTime) { clearInterval(notificationInterval) }
 }

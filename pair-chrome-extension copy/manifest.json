@@ -1,7 +1,7 @@
 {
   "name": "Epicodus - Pair Swap",
-  "version": "1.1.1",
-  "description": "For Epicodus students working in pairs. Will notify students when to switch driver/navigator roles.",
+  "version": "1.0",
+  "description": "For Epicodus students working in pairs. Will notify students when to switch driver/navigater roles",
   "permissions": ["storage", "alarms", "notifications"],
   "background": {
     "scripts": ["background.js"],
